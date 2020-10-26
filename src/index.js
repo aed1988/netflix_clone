@@ -1,16 +1,15 @@
-import React from 'react';
-import {render} from 'react-dom';
+import React from "react";
+import { render } from "react-dom";
 
-import {GlobalStyles} from './global-styles'
-import App from './app';
+import { GlobalStyles } from "./global-styles";
+import App from "./app";
 
 import "normalize.css";
 
 render(
   <>
-    <GlobalStyles/>
+    <GlobalStyles />
     <App />
-  </>
-    ,
-  document.getElementById('root')
+  </>,
+  document.getElementById("root")
 );
